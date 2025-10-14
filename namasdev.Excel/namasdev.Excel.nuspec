@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>namasdev.Excel</id>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <title>namasdev Excel</title>
     <authors>Matias Alberto Lopez</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -14,7 +14,7 @@
     <copyright>2024</copyright>
     <tags>namasdev</tags>
     <dependencies>
-      <dependency id="namasdev.Core" version="1.0.1" />
+      <dependency id="namasdev.Core" version="1.0.2" />
       <dependency id="EPPlus" version="4.5.3.3" />
     </dependencies>
   </metadata>

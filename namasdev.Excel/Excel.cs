@@ -256,7 +256,8 @@ namespace namasdev.Excel
             if (!string.IsNullOrEmpty(strValor))
             {
                 string mensajeError;
-                if (!Validador.ValidarEmail(strValor, "Correo electrónico", out mensajeError))
+                if (!Validador.ValidarEmail(strValor, "Correo electrónico", requerido: esRequerido, 
+                    out mensajeError))
                 {
                     AgregarError(celda, mensajeError);
                 }
